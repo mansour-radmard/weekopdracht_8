@@ -31,10 +31,10 @@
                     <i class="far fa-calendar-alt"></i>
                 </h6>
                 <h6>
-                    <a href="/webshop/resources/views/add_new_ad.php"><i class="fas fa-ad"></i> Add new Ad </a>
+                    <a href="#"><i class="fas fa-ad"></i> Add new Ad </a>
                 </h6>
                 <h6>
-                    <a href="/webshop/resources/views/my_ads.php?id="><i class="far fa-address-card"></i> My Ads </a>
+                    <a href="#"><i class="far fa-address-card"></i> My Ads </a>
                 </h6>
             </div>
         </div>
