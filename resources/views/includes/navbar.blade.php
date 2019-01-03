@@ -12,9 +12,11 @@
                <li class="nav-item">
                   <a href="#" class="nav-link">Sign up <i class="fas fa-user-plus"></i></a>
                </li>
+                @if (Auth::check())
                <li class="nav-item">
                   <a class="nav-link" onclick="logout()">Logout <i class="fas fa-sign-out-alt"></i></a>
                </li>
+               @endif
                <li class="nav-item">
                <a class="nav-link" href="{{ url('/home') }}">Login <i class="fas fa-user-lock"></i></a>
                </li>

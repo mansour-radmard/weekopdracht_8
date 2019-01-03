@@ -5,18 +5,18 @@
 </head>
 
 <body>
-   @include('includes.navbar')
+  @include('includes.navbar')
 
-   <div class="container">
+    <div class="container">
       @include('includes.header')
-         @yield('content')
-   </div>
+        @yield('content')
+    </div>
 
-   <footer class="py-5 bg-dark">
+    <footer class="py-5 bg-dark">
       @include('includes.footer')
-   </footer>
+    </footer>
 
-   @include('includes.scripts')
+  @include('includes.scripts')
 </body>
 
 </html>
